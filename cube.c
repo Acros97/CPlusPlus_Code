@@ -1,3 +1,4 @@
+// IMPORTANT! Using g++ compiler for Linux enviroment.
 #include <math.h>
 #include <stdio.h>
 #include <string.h>
