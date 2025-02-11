@@ -2,6 +2,7 @@
 #include <string>
 #include <thread>
 #include <chrono>
+#include "Math_D.h"
 
 using namespace std;
 
@@ -18,9 +19,12 @@ void print_awaitingPoints() {
 
 int main()
 {
-	string WELCOME_INIT_MESSAGE = "Ejecutando programa";
+	string WELCOME_INIT_MESSAGE = "Running the program";
 	cout << WELCOME_INIT_MESSAGE;
 	print_awaitingPoints();
-	cout << "Listo!" << endl;
+	cout << "Ready." << endl;
+	int magnitudeVector = vector_magnitude_2D(3, 4);
+	cout << "mag.: " << magnitudeVector << endl;
+
 	return 0;
 }
